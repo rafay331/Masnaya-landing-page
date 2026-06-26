@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Masnaya Portfolio Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="home">
+      <nav class="nav" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Masnaya home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 64 64" role="img">
+              <path d="M12 17h40l8 13-28 26L4 30l8-13Z" />
+              <path d="M12 17 4 30h56l-8-13M21 17l-6 13 17 26M43 17l6 13-17 26M21 17l11 13 11-13" />
+            </svg>
+          </span>
+          <span>
+            <strong>MASNAYA</strong>
+            <em>مصنعية</em>
+          </span>
+        </a>
+
+        <input class="nav-toggle" id="nav-toggle" type="checkbox" aria-label="Toggle navigation" />
+        <label class="nav-button" for="nav-toggle" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <div class="nav-links">
+          <a class="active" href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#steps">How It Works</a>
+          <!-- <a href="#partners">For Partners</a> -->
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <a class="pill-button nav-cta" href="#download">
+          Get the App
+          <span aria-hidden="true">›</span>
+        </a>
+      </nav>
+
+      <div class="hero-grid">
+        <section class="hero-copy" aria-labelledby="hero-title">
+          <h1 id="hero-title">
+            Intelligent Luxury.
+            <span>Radical Transparency.</span>
+          </h1>
+          <p>
+            Masnaya empowers you to unlock exclusive savings on craftsmanship fees at the
+            GCC's most trusted showrooms. Luxury you love, value you deserve.
+          </p>
+          <div class="hero-actions">
+            <a class="pill-button" href="#download">Get the App <span aria-hidden="true">›</span></a>
+            <a class="outline-button" href="#steps">How It Works <span aria-hidden="true">▶</span></a>
+          </div>
+
+        </section>
+
+        <section class="hero-visual" aria-label="Masnaya mobile app preview">
+          <img class="bracelet" src="assets/bracelet-hero.png" alt="Gold diamond bracelet on ivory silk" />
+          <div class="phone phone-main" aria-hidden="true">
+            <div class="phone-speaker"></div>
+            <div class="app-screen">
+              <div class="status">
+                <span>9:41</span>
+                <span>●●● ▰</span>
+              </div>
+              <p class="welcome">Welcome back,</p>
+              <h2>Sara</h2>
+              <article class="privilege-card">
+                <span>Your Masnaya Privilege</span>
+                <strong>10%<small> off</small></strong>
+                <p>on making charges</p>
+                <button>View Barcode</button>
+                <i>◇</i>
+              </article>
+              <article class="map-card">
+                <div>
+                  <strong>Find Showrooms</strong>
+                  <p>Explore partner showrooms near you</p>
+                  <button>View Map</button>
+                </div>
+                <span>⌖</span>
+              </article>
+              <div class="categories">
+                <div class="screen-heading">
+                  <strong>Categories</strong>
+                  <small>View all</small>
+                </div>
+                <div class="category-grid">
+                  <span>Ring</span>
+                  <span>Necklace</span>
+                  <span>Bracelet</span>
+                  <span>Earring</span>
+                </div>
+              </div>
+              <div class="tabbar">
+                <span>⌂</span><span>⌖</span><span>▣</span><span>♡</span><span>♙</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <main>
+      <section class="values" aria-label="Brand values">
+        <article>
+          <span class="value-icon">◇</span>
+          <h3>Intelligent Luxury</h3>
+          <p>Smart savings that never compromise on prestige.</p>
+        </article>
+        <article>
+          <span class="value-icon">◎</span>
+          <h3>Radical Transparency</h3>
+          <p>Clear, upfront value on craftsmanship fees.</p>
+        </article>
+        <article>
+          <span class="value-icon">♢</span>
+          <h3>Modern Heritage</h3>
+          <p>Honoring tradition with cutting-edge innovation.</p>
+        </article>
+        <article>
+          <span class="value-icon">♙</span>
+          <h3>Consumer Empowerment</h3>
+          <p>Giving you the confidence and control to buy better.</p>
+        </article>
+      </section>
+
+      <section class="steps" id="steps">
+        <p class="eyebrow">How It Works</p>
+        <h2>Simple Steps. Smarter Savings.</h2>
+        <div class="step-line" aria-label="Four app steps">
+          <article>
+            <span>▯</span>
+            <h3>1. Download</h3>
+            <p>Get the Masnaya app and sign up in seconds.</p>
+          </article>
+          <article>
+            <span>▤</span>
+            <h3>2. Discover</h3>
+            <p>Explore partner showrooms near you.</p>
+          </article>
+          <article>
+            <span>▥</span>
+            <h3>3. Redeem</h3>
+            <p>Unlock and present your Masnaya privilege barcode.</p>
+          </article>
+          <article>
+            <span>◇</span>
+            <h3>4. Save</h3>
+            <p>Enjoy exclusive savings on craftsmanship fees.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-heading">
+          <span class="about-top-mark" aria-hidden="true">&#10022;</span>
+          <p class="eyebrow">Why Masnaya</p>
+          <h2>Luxury, Made Clear<span>.</span></h2>
+          <span class="ornament" aria-hidden="true"></span>
+          <p>
+            Masnaya brings greater clarity to the jewelry-buying journey by
+            connecting customers with trusted partner showrooms, transparent
+            craftsmanship savings, and a seamless digital experience.
+          </p>
+        </div>
+
+        <div class="about-cards">
+          <article class="about-card">
+            <span class="about-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64">
+                <path d="M13 34 34 13h14l3 14-21 21L13 34Z" />
+                <path d="m20 41 7 7M27 41l14-14" />
+                <path d="M27 29h.1M40 22h.1" />
+                <path d="M47 13a8 8 0 1 1 8 8" />
+              </svg>
+            </span>
+            <span class="role-line" aria-hidden="true"></span>
+            <h3>Transparent Value</h3>
+            <p>Understand and unlock exclusive savings on craftsmanship fees.</p>
+            <span class="role-line" aria-hidden="true"></span>
+          </article>
+
+          <article class="about-card">
+            <span class="about-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64">
+                <path d="M16 27h32l-4-10H20l-4 10Z" />
+                <path d="M18 27v20h28V27" />
+                <path d="M14 27c0 5 8 5 8 0 0 5 8 5 8 0 0 5 8 5 8 0 0 5 8 5 8 0 0 5 8 5 8 0" />
+                <path d="M27 47V35h10v12" />
+                <path d="m32 7 8 8H24l8-8Zm-4 8 4-8 4 8" />
+              </svg>
+            </span>
+            <span class="role-line" aria-hidden="true"></span>
+            <h3>Curated Showrooms</h3>
+            <p>Discover trusted jewelry partners selected for quality and service.</p>
+            <span class="role-line" aria-hidden="true"></span>
+          </article>
+
+          <article class="about-card">
+            <span class="about-icon" aria-hidden="true">
+              <svg viewBox="0 0 64 64">
+                <rect x="20" y="8" width="24" height="48" rx="5" />
+                <path d="M29 13h6M30 51h4" />
+                <path d="m32 23 10 10-10 10-10-10 10-10Z" />
+                <path d="M22 33h20M28 23l4 20 4-20" />
+              </svg>
+            </span>
+            <span class="role-line" aria-hidden="true"></span>
+            <h3>Built for Modern Buyers</h3>
+            <p>A refined digital experience designed around confidence, convenience, and value.</p>
+            <span class="role-line" aria-hidden="true"></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="newsletter" id="blog">
+        <div>
+          <p class="eyebrow">Stay Updated</p>
+          <h2>Get the latest offers and updates straight to your inbox.</h2>
+        </div>
+        <form>
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" placeholder="Enter your email" />
+          <button type="submit">Subscribe <span aria-hidden="true">›</span></button>
+        </form>
+      </section>
+
+      <section class="team" id="team" aria-labelledby="team-title">
+        <div class="team-heading">
+          <p class="eyebrow">Our Team</p>
+          <h2 id="team-title">Meet the Minds Behind <span>Masnaya</span></h2>
+          <span class="ornament" aria-hidden="true"></span>
+          <p>
+            A passionate team dedicated to combining heritage, technology,
+            and transparency to redefine luxury in the GCC.
+          </p>
+        </div>
+
+        <div class="team-grid">
+          <article class="team-card">
+            <img class="team-photo" src="assets/Wohaib-khalid.png" alt="Wohaib Khalid" />
+            <h3>Wohaib Khalid</h3>
+            <p class="team-role">Co-Founder &amp; CEO</p>
+            <span class="role-line" aria-hidden="true"></span>
+            <p>
+              Visionary leader driving innovation, trust, and clarity in luxury jewelry.
+            </p>
+            <a class="linkedin" href="https://www.linkedin.com/in/wohaib-khalid-244439127?utm_source=share_via&utm_content=profile&utm_medium=member_ios" aria-label="Wohaib Khalid LinkedIn">in</a>
+          </article>
+
+          <article class="team-card">
+            <img class="team-photo" src="assets/Maham%20Mangrio.png" alt="Maham Mangrio" />
+            <h3>Maham Mangrio</h3>
+            <p class="team-role">Admin Associate</p>
+            <span class="role-line" aria-hidden="true"></span>
+            <p>
+             Administrative leader ensuring smooth operations and strong team support.
+            </p>
+            <a class="linkedin" href="#" aria-label="Maham Mangrio">in</a>
+          </article>
+
+          <article class="team-card">
+            <img class="team-photo" src="assets/Abdul%20Rafay.png" alt="Abdul Rafay" />
+            <h3>Abdul Rafay</h3>
+            <p class="team-role">Software Enginer</p>
+            <span class="role-line" aria-hidden="true"></span>
+            <p>
+              Software engineer building secure, scalable experiences for users and partners.
+            </p>
+            <a class="linkedin" href="https://www.linkedin.com/in/abdul-rafay-4876b136b/" aria-label="Abdul Rafay LinkedIn">in</a>
+          </article>
+
+          <article class="team-card">
+            <img class="team-photo" src="assets/Areeba%20ghazanfar.png" alt="Areeba Ghazanfar" />
+            <h3>Areeba Ghazanfar</h3>
+            <p class="team-role"> Bussiness Development Intern</p>
+            <span class="role-line" aria-hidden="true"></span>
+            <p>
+             Business development intern supporting partnerships, growth, and new opportunities.
+            </p>
+            <a class="linkedin" href="#" aria-label="Areeba Ghazanfar">in</a>
+          </article>
+
+          <article class="team-card">
+            <img class="team-photo" src="assets/Abdullah%20Satti.png" alt="Abdullah Satti" />
+            <h3>Abdullah Satti</h3>
+            <p class="team-role">Software Intern</p>
+            <span class="role-line" aria-hidden="true"></span>
+            <p>
+              Software intern supporting the development of reliable, user-focused digital experiences.
+            </p>
+            <a class="linkedin" href="https://www.linkedin.com/in/abdullah-satti-969567401/" aria-label="Abdullah Satti LinkedIn">in</a>
+          </article>
+        </div>
+
+        <a class="pill-button team-cta" href="#contact">Join Our Journey <span aria-hidden="true">-&gt;</span></a>
+      </section>
+    </main>
+
+    <footer class="footer" id="contact">
+      <div class="footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#home">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 64 64">
+                <path d="M12 17h40l8 13-28 26L4 30l8-13Z" />
+                <path d="M12 17 4 30h56l-8-13M21 17l-6 13 17 26M43 17l6 13-17 26M21 17l11 13 11-13" />
+              </svg>
+            </span>
+            <span><strong>MASNAYA</strong><em>مصنعية</em></span>
+          </a>
+          <p>The digital bridge between heritage craftsmanship and modern retail innovation.</p>
+          <div class="socials" aria-label="Social links">
+            <a href="#">◎</a><a href="#">in</a><a href="#">𝕏</a><a href="#">f</a>
+          </div>
+        </div>
+        <div>
+          <h3>Company</h3>
+          <a href="#about">About Us</a>
+          <a href="#steps">How It Works</a>
+          <!-- <a href="#partners">For Partners</a> -->
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Refund Policy</a>
+        </div>
+        <div id="download">
+          <h3>Download the App</h3>
+          <a class="store-badge" href="#"><span></span><small>Download on the</small>App Store</a>
+          <a class="store-badge" href="#"><span>▶</span><small>Get it on</small>Google Play</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Masnaya. All rights reserved.</span>
+        <span>Made with love in the GCC</span>
+      </div>
+    </footer>
+  </body>
+</html>
